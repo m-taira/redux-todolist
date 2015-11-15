@@ -11,8 +11,6 @@ gulp.task("build", () => {
   gulp.src('src/css/*.css').pipe(gulp.dest('./build/css'))
 });
 
-
-
 gulp.task('watch', () => {
   gulp.watch(['./src/**/*.es6', './src/**/*.js', './src/*.html', './src/templates/*.jade', './src/css/*.css'], ['build'])
 });
