@@ -1,0 +1,21 @@
+{
+  "name": "redux-todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "babel-core": "^5",
+    "babel-loader": "^5",
+    "gulp": "^3.9.0",
+    "gulp-webpack": "^1.5.0",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "webpack": "^1.12.6"
+  }
+}
